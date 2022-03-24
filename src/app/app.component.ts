@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mar22assignmentng';
+
+  products = [
+    'product 1',
+    'product 2'
+  ]
+
+  saysomething(){
+    return "something..."
+  }
 }
